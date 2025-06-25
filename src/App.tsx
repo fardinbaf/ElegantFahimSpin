@@ -11,7 +11,7 @@ import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 
 const generateId = () => Math.random().toString(36).substr(2, 9);
 
-const initialDefaultNamesInput = 'Ali\nBeatriz\nCharles\nDiya\nEric\nFatima\nGabriel\nHanna';
+const initialDefaultNamesInput = 'Fahim\nAli\nFardin\nBeatriz\nCharles\nDiya\nEric\nFatima\nGabriel\nHanna';
 const parseNamesToEntries = (input: string, existingEntries: WheelEntry[]): WheelEntry[] => {
   const lines = input
     .split(/[\n,]+/)
