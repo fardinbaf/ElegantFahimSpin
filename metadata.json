@@ -1,0 +1,6 @@
+{
+  "name": "Elegant Fahim's Star Giveway",
+  "description": "A spinning wheel app to randomly pick names. Features name input, shuffle/sort entries, and a history of winners. Ideal for giveaways and fun selections.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
